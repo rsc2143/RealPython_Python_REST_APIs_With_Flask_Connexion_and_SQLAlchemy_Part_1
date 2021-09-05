@@ -1,0 +1,2 @@
+docker build . -t realpython_rest_apis_withl_flask_connexion_and_sqlalchemy_version1
+docker container run -d -p 5000:5000 realpython_rest_apis_withl_flask_connexion_and_sqlalchemy_version1
