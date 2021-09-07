@@ -18,14 +18,17 @@ paths:
       tags:
         - "People"
       summary: "The people data structure supported by the server application"
-      description: "Successful read people list operation"
-      schema:
-        type: "array"
-        items:
-          properties:
-            fname:
-              type: "string"
-            lname:
-              type: "string"
-            timestamp:
-              type: "string"
+      description: "Read the list of people"
+      responses:
+        200:
+          description: "Successful read people list operation"
+          schema:
+            type: "array"
+            items:
+              properties:
+                fname:
+                  type: "string"
+                lname:
+                  type: "string"
+                timestamp:
+                  type: "string"
